@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Study Case</string>
+    <string name="button_eatbus">Eatbus</string>
+    <string name="button_Abnormal">Abnormal</string>
+    <string name="porsi">Porsi</string>
+    <string name="menu">Menu</string>
+</resources>

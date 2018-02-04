@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.studycase.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:text="Makan Malam" />
+
+    <EditText
+        android:id="@+id/editmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="@string/menu" />
+
+    <EditText
+        android:id="@+id/editporsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editmenu"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="@string/porsi" />
+
+    <Button
+        android:id="@+id/btneatbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editporsi"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:width="130dp"
+        android:background="#F88888"
+        android:textColor="#FAF6F6"
+        android:onClick="launchSecondActivity"
+        android:text="@string/button_eatbus" />
+
+    <Button
+        android:id="@+id/btnabnormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btneatbus"
+        android:layout_alignBottom="@+id/btneatbus"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:width="130dp"
+        android:background="#F88888"
+        android:textColor="#FAF6F6"
+        android:onClick="launchThirdActivity"
+        android:text="@string/button_Abnormal"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Dengan Miliea"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
